@@ -4,12 +4,6 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Moviecontroller;
 
 
-// Route::get('/', function () {
-//     return view('welcome');
-// });
-// Route::get('/', function () {
-//     return view('welcome');
-// });
 
 Route::get('/', Moviecontroller::class .'@index')->name('movies.index');
 
