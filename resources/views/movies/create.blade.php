@@ -53,6 +53,14 @@
     .text-center {
         text-align: center;
     }
+    #submit_btn{
+        background-color: #007bff;
+        color: white;
+        text-align: center;
+        cursor: pointer;
+        border-radius: 5px;
+        padding: 10px 20px;
+    }
 </style>
 <body>
     
@@ -72,7 +80,7 @@
             <input type="text" name="movie_gener" class="form-control" required>
         </div>
 
-        <button type="submit" class="btn btn-success">Save</button>
+        <button id="submit_btn" type="submit" class="btn btn-success">Save</button>
     </form>
 </body>
 </html>

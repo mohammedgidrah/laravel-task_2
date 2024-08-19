@@ -43,10 +43,10 @@ class moviecontroller extends Controller
     /**
      * Display the specified resource.
      */
-    public function show(string $id)
+    public function show($id)
     {
-        $movies = Movie::all();
-        return view('movies.index', compact('movies'));
+        $movies = Movie::find($id);
+        return view('movies.show', compact('movies'));
     }
 
     /**
