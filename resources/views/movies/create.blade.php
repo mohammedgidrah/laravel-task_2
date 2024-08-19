@@ -30,7 +30,7 @@
     .form-group label {
         display: block;
         margin-bottom: 5px;
-        color: #555;
+        color: #ffffff;
     }
     .form-control {
         width: 100%;
@@ -63,6 +63,7 @@
     }
 </style>
 <body>
+    @include('movies.nav')
     
     <form action="{{ route('movies.store') }}" method="POST">
         @csrf

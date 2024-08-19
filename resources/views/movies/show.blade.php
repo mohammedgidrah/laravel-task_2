@@ -58,7 +58,7 @@
 
 <body>
     
-
+    @include('movies.nav')
     <div class="card mt-4 border-0 minimalist-card" style="max-width: 600px; margin: auto;">
         <div class="card-header text-center minimalist-header">
             <strong>Post Info</strong>

@@ -53,7 +53,7 @@
     }
 </style>
 <body>
-    
+    @include('movies.nav');
     <div class="container">
         <h1>Edit Movies</h1>
         <form action="{{route('movies.update',$movies->id)}}" method="post">

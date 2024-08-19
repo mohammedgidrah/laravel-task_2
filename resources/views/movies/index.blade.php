@@ -131,7 +131,7 @@
 </style>
 
 <body>
-
+@include('movies.nav');
     <div class="container">
         <h1>Movies</h1>
         <a href="{{ route('movies.create') }}" class="btn btn-primary mb-3">Add Movie</a>
